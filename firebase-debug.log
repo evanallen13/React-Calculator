@@ -1,50 +1,25 @@
-[debug] [2019-06-25T00:25:07.560Z] ----------------------------------------------------------------------
-[debug] [2019-06-25T00:25:07.563Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\evana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2019-06-25T00:25:07.563Z] CLI Version:   6.9.2
-[debug] [2019-06-25T00:25:07.563Z] Platform:      win32
-[debug] [2019-06-25T00:25:07.563Z] Node Version:  v10.15.1
-[debug] [2019-06-25T00:25:07.564Z] Time:          Mon Jun 24 2019 17:25:07 GMT-0700 (Pacific Daylight Time)
-[debug] [2019-06-25T00:25:07.564Z] ----------------------------------------------------------------------
+[debug] [2019-06-25T03:07:52.895Z] ----------------------------------------------------------------------
+[debug] [2019-06-25T03:07:52.898Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\evana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-06-25T03:07:52.898Z] CLI Version:   6.9.2
+[debug] [2019-06-25T03:07:52.898Z] Platform:      win32
+[debug] [2019-06-25T03:07:52.898Z] Node Version:  v10.15.1
+[debug] [2019-06-25T03:07:52.899Z] Time:          Mon Jun 24 2019 20:07:52 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-06-25T03:07:52.899Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2019-06-25T00:25:07.572Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2019-06-25T00:25:07.573Z] > authorizing via signed-in user
-[debug] [2019-06-25T00:25:07.573Z] [iam] checking project calc-a0e94 for permissions ["firebase.projects.get"]
-[debug] [2019-06-25T00:25:07.575Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/calc-a0e94:testIamPermissions  
+[debug] [2019-06-25T03:07:52.908Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-25T03:07:52.909Z] > authorizing via signed-in user
+[debug] [2019-06-25T03:07:52.910Z] [iam] checking project calc-a0e94 for permissions ["firebase.projects.get"]
+[debug] [2019-06-25T03:07:52.911Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/calc-a0e94:testIamPermissions  
 
-[debug] [2019-06-25T00:25:07.920Z] <<< HTTP RESPONSE 200
-[debug] [2019-06-25T00:25:07.922Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/calc-a0e94  
+[debug] [2019-06-25T03:07:53.306Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-25T03:07:53.307Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/calc-a0e94  
  
-[debug] [2019-06-25T00:25:08.232Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-25T03:07:53.588Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'C:\Users\evana\Desktop\calc'...
 [info] 
-[debug] [2019-06-25T00:25:08.236Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/362699200835/clients/_:getWebAppConfig  
+[debug] [2019-06-25T03:07:53.601Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/362699200835/clients/_:getWebAppConfig  
  
-[debug] [2019-06-25T00:25:08.641Z] <<< HTTP RESPONSE 200
-[info] i  hosting: Serving hosting files from: public
-[info] +  hosting: Local server: http://localhost:5000
-[debug] [2019-06-25T00:47:30.243Z] ----------------------------------------------------------------------
-[debug] [2019-06-25T00:47:30.245Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\evana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2019-06-25T00:47:30.246Z] CLI Version:   6.9.2
-[debug] [2019-06-25T00:47:30.246Z] Platform:      win32
-[debug] [2019-06-25T00:47:30.246Z] Node Version:  v10.15.1
-[debug] [2019-06-25T00:47:30.247Z] Time:          Mon Jun 24 2019 17:47:30 GMT-0700 (Pacific Daylight Time)
-[debug] [2019-06-25T00:47:30.247Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2019-06-25T00:47:30.256Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2019-06-25T00:47:30.257Z] > authorizing via signed-in user
-[debug] [2019-06-25T00:47:30.257Z] [iam] checking project calc-a0e94 for permissions ["firebase.projects.get"]
-[debug] [2019-06-25T00:47:30.259Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/calc-a0e94:testIamPermissions  
-
-[debug] [2019-06-25T00:47:30.664Z] <<< HTTP RESPONSE 200
-[debug] [2019-06-25T00:47:30.666Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/calc-a0e94  
- 
-[debug] [2019-06-25T00:47:30.944Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Serving from 'C:\Users\evana\Desktop\calc'...
-[info] 
-[debug] [2019-06-25T00:47:30.947Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/362699200835/clients/_:getWebAppConfig  
- 
-[debug] [2019-06-25T00:47:31.300Z] <<< HTTP RESPONSE 200
+[debug] [2019-06-25T03:07:53.981Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000

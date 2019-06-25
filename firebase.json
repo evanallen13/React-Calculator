@@ -1,10 +1,12 @@
 {
   "hosting": {
-    "public": "dist",
+    "url":"https://calc-a0e94.firebaseapp.com/",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "homepage":"https://github.com/evanallen13/React-Calculator"
   }
 }
