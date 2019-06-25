@@ -1,0 +1,24 @@
+.button{
+    border-radius: 50%;
+    height: 60px;
+    width: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    color: 888;
+    flex: 1;
+}
+
+.operator{
+    background-color: #ff9500;
+    color: white;
+}
+
+.functionalOperator{
+    background-color: #d4d4d4;
+    color: black;
+}
